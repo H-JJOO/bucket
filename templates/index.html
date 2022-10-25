@@ -94,12 +94,12 @@
                         let temp_html = ``
                         if (done == 0) {/*완료 버튼 클릭 안한 경우*/
                             temp_html = `<li>
-                                            <h2>✅ ${bucket}</h2>
+                                            <h2>${num}. ${bucket}</h2>
                                             <button onclick="done_bucket(${num})" type="button" class="btn btn-outline-primary">완료!</button>
                                         </li>`
                         } else {
                             temp_html = `<li>
-                                            <h2 class="done">✅ ${bucket}</h2>
+                                            <h2 class="done">${num}. ${bucket}</h2>
                                         </li>`
                         }
 
